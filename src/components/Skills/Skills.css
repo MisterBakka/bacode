@@ -1,0 +1,67 @@
+
+.skills-container {
+    background-color: #ff6b6b; 
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.5), 0px -20px 30px rgba(0, 0, 0, 0.5); 
+    padding: 90px; 
+    color: #ffffff; 
+    text-align: center; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    animation: slideInFromLeft 2s ease-out; 
+
+  }
+  
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%); 
+    }
+    100% {
+      transform: translateX(0); 
+    }
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap; 
+  }
+  
+  .skill-item {
+    text-align: center;
+    margin: 10px;
+    width: 150px;
+  }
+  
+  .skill-icon {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+ 
+/* Réduire l'espace intérieur pour les écrans plus petits */
+@media screen and (max-width: 768px) {
+  .skills-container {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .skills-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Deux compétences par ligne */
+    gap: 10px; /* Espacement entre les compétences */
+    justify-content: center;
+  }
+
+  .skill-item {
+    text-align: center;
+    margin: 10px;
+    width: 100%; /* Largeur maximale pour les compétences */
+  }
+
+  .skill-icon {
+    font-size: 30px;
+    margin-bottom: 6px;
+  }
+}

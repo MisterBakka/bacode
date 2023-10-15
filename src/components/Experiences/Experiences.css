@@ -1,0 +1,71 @@
+.experience-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: center; 
+}
+
+.experience-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.projets {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.experience-card img {
+  width: 60%; 
+  height: auto; 
+  max-height: 150px;
+  margin: 0 auto; /* Centrer l'image horizontalement */
+}
+
+.experience-card h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+  text-align: center; /* Centrer le texte */
+}
+
+.experience-card p {
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+}
+
+.experience-card a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #007BFF; /* Couleur personnalisée pour les liens */
+  margin-top: 10px;
+  text-align: center; /* Centrer les liens */
+}
+.sc2a-card img {
+  width: 50%; /* Ajustez la largeur selon vos besoins */
+  max-height: 150px; /* Ajustez la hauteur maximale selon vos besoins */
+}
+
+
+/* Styles pour le mode mobile */
+@media (max-width: 768px) {
+  .experience-list {
+    grid-template-columns: repeat(1, 1fr); 
+    margin: 0 20px;
+  }
+}

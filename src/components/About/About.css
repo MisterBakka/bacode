@@ -1,0 +1,58 @@
+/* Dans votre fichier CSS pour la section "About" */
+.about-container {
+  background-color: #2e2e2e;
+  color: #ecf0f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+p  {
+  display: flex;
+  justify-content: center;
+} 
+
+.centered-text {
+  color: #ff6b6b;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.description {
+  width: 50%;
+  font-size: 24px;
+  text-align: center; /* Ajoutez cette ligne pour centrer le texte */
+  margin: 0 auto; /* Ajoutez cette ligne pour centrer horizontalement le texte */
+  margin-bottom: 20px; /* Espacement entre le texte et l'image */
+}
+
+
+.portrait {
+  width: 50%;
+  max-width: 300px;
+}
+
+.show {
+  animation: fadeIn 3.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .description {
+    width: 90%;
+    font-size: 20px;
+  }
+  .portrait {
+    width: 80%;
+  }
+}
