@@ -73,6 +73,7 @@
     textarea,
     button {
       width: 100%;
+      box-sizing: border-box;
     }
   
     /* Réduisez les marges et les espacements entre les éléments */

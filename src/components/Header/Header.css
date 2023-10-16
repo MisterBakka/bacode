@@ -72,7 +72,7 @@
   }
 
   .menu li {
-    margin: 0;
-    margin-right: 20px;
+    font-size: 13px;
+    margin: 0 5px;
   }
 }
