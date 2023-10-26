@@ -5,8 +5,8 @@ import Loader from "./components/Loader/Loader";
 import About from "./components/About/About";
 import Skills from './components/Skills/Skills';
 import Experiences from "./components/Experiences/Experiences";
-import ContactForm from "./components/ContactForm/ContactForm";
 import Footer from "./components/Footer/Footer";
+import ContactButton from "./components/Contact/Contact";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -25,9 +25,10 @@ function App() {
         <>
           <Header />
           <About />
+          <ContactButton/>
           <Skills />
           <Experiences />
-          <ContactForm />
+          <ContactButton/>
           <Footer />
         </>
       )}

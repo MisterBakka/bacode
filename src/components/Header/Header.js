@@ -6,7 +6,6 @@ function Header() {
   return (
     <header className="header">
       <div className="logo-container">
-        {/* Remplacez l'URL par le chemin de votre logo */}
         <img
           src={logo}
           alt="Logo initial un D et un B"
