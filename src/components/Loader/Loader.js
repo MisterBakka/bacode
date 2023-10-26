@@ -7,7 +7,7 @@ function Loader() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 2000); // Supprimez cette ligne lorsque vous n'avez plus besoin du loader
+    }, 1000); // Supprimez cette ligne lorsque vous n'avez plus besoin du loader
   }, []);
 
   return (
