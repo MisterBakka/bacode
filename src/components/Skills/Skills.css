@@ -8,18 +8,11 @@
     bottom: 0;
     left: 0;
     right: 0;
-    animation: slideInFromLeft 2s ease-out; 
+  
 
   }
   
-  @keyframes slideInFromLeft {
-    0% {
-      transform: translateX(-100%); 
-    }
-    100% {
-      transform: translateX(0); 
-    }
-  }
+
   
   .skills-list {
     list-style: none;

@@ -4,8 +4,14 @@ import SC2AImage from '../../assets/images/Logo 2.png';
 import KasaImage from '../../assets/images/kasa.png';
 import OhmyFoodImage from '../../assets/images/ohmyfood.png';
 import SophieImage from '../../assets/images/Sophie.png';
-import ProjectModal from '../Experiences/ProjetModal'; // Assurez-vous que le chemin est correct
- // Importez le composant de la modal
+import ProjectModal from '../Experiences/ProjetModal'; 
+import HtmlIcon from '../../assets/icon/html5.svg';
+import CssIcon from '../../assets/icon/css3-alt.svg';
+import JavascriptIcon from '../../assets/icon/js.svg';
+import ReactIcon from '../../assets/icon/react.svg';
+
+import FigmaIcon from '../../assets/icon/figma.svg';
+import SassIcon from '../../assets/icon/sass.svg';
 
 function Experiences() {
   const experiences = [
@@ -13,29 +19,50 @@ function Experiences() {
       title: 'SC2A',
       image: SC2AImage,
       description:
-        "Site web pour un courtier en assurance (SC2A) offrant des services d'assurance pour les particuliers et les entreprises",
+        "Integration avec React d'une maquette, conçue par un UX/UI designer, pour le site one-page d'un courtier en assurance",
+      technologies: [
+      {logo: ReactIcon},
+      {logo: HtmlIcon},
+      {logo: CssIcon},
+      {logo: FigmaIcon}
+      ],
       link: 'https://misterbakka.github.io/SC2A/',
     },
     {
       title: 'Kasa',
       image: KasaImage,
       description:
-        "Plateforme de location d'appartements entre particuliers, Kasa simplifie la recherche et la location de logements",
+        "Refonte d'un site de location d'appartements. Intégration de React avec des composants et les différentes routes. Création d'animations CSS de menus déroulants. Intégration dynamique des hôtes, description et rating de chaque logements ainsi qu'un slider à partir de données JSON. Site responsive",
+      technologies: [
+        { logo: ReactIcon},
+        {logo: HtmlIcon},
+        { logo: CssIcon},
+        {logo: JavascriptIcon}
+      ],  
       link: 'https://github.com/MisterBakka/Kasa',
     },
     {
       title: 'OhmyFood',
       image: OhmyFoodImage,
       description:
-        "OhmyFood est une plateforme de réservation de restaurants gastronomiques haut de gamme",
+        "Développement d'un site en mobile first qui répertorie les menus de restaurants gastronomiques. Réaliser les différentes animations en CSS comme le like, le loader, les sélecteurs de plats etc... Intégration responsive du site à partir de maquettes Figma et organisation du code avec SASS",
+        technologies: [
+          {logo: HtmlIcon},
+          { logo: SassIcon}
+        ],
       link: 'https://misterbakka.github.io/ohmyfood/',
     },
     {
       title: 'Portfolio Sophie Bluel',
       image: SophieImage,
       description:
-        "Portfolio en ligne pour Sophie Bluel, photographe professionnelle spécialisée dans la capture de moments uniques et la création d'images artistiques",
-      link: 'https://github.com/MisterBakka/PortfolioArchitecte',
+        "Réalisation du front-end d'un portfolio pour Sophie Bluel. Intégration de la gestion de log-in log-out administrateur, d'une galerie de travaux filtrables par catégories et ajout de modales pour supprimer ou ajouter des travaux à la galerie. Le tout via une API",
+        technologies: [
+          { logo: ReactIcon},
+          {logo: HtmlIcon},
+          { logo: CssIcon}
+        ], 
+        link: 'https://github.com/MisterBakka/PortfolioArchitecte',
     },
   ];
 
@@ -64,7 +91,7 @@ function Experiences() {
               style={{ maxWidth: '100%', height: 'auto', maxHeight: '150px' }}
             />
             <h3>{experience.title}</h3>
-            <p>{experience.description.substring(0, 100)}...</p>
+            
             <button onClick={() => openModal(experience)}>
               Voir le projet
             </button>

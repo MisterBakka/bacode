@@ -16,8 +16,8 @@ function Footer() {
           </ul>
         </div>
         <div className="footer-social">
-          <a href="lien-vers-votre-facebook" target="_blank" rel="noopener noreferrer">Linkdin</a>
-          <a href="lien-vers-votre-twitter" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/badre-dahmouni-a88a3b242/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/MisterBakka" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
       </div>
       <div className="footer-bottom">

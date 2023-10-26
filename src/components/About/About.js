@@ -36,7 +36,7 @@ function About() {
           <div className="portrait-container">
             <img
               src={Portrait}
-              alt="Votre Portrait"
+              alt="Mon Portrait"
               className="portrait"
             />
           </div>
