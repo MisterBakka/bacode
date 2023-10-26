@@ -11,18 +11,18 @@ function ContactForm() {
         className="contact-form"
       >
         <h2>Contactez-moi</h2>
-        <div className="message" data-netlify="true"></div>
+        <div className="message"></div>
         <div className="form-group">
           <label htmlFor="name">Nom</label>
-          <input type="text" id="name" name="name" /> {/* Ajout de l'attribut "name" */}
+          <input type="text" id="name" name="name" /> 
         </div>
         <div className="form-group">
           <label htmlFor="email">E-mail</label>
-          <input type="email" id="email" name="email" /> {/* Ajout de l'attribut "name" */}
+          <input type="email" id="email" name="email" /> 
         </div>
         <div className="form-group">
           <label htmlFor="message">Message</label>
-          <textarea id="message" name="message"></textarea> {/* Ajout de l'attribut "name" */}
+          <textarea id="message" name="message"></textarea> 
         </div>
         <button type="submit">Envoyer</button>
       </form>
