@@ -27,7 +27,7 @@ function Experiences() {
       {logo: CssIcon},
       {logo: FigmaIcon}
       ],
-      link: 'https://misterbakka.github.io/SC2A/',
+      link: 'https://github.com/MisterBakka/SC2A',
       cardClassName: 'sc2a-card',
     },
     {
