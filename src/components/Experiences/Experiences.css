@@ -57,11 +57,23 @@
   text-align: center; /* Centrer les liens */
 }
 .sc2a-card img {
-  width: 50%; /* Ajustez la largeur selon vos besoins */
-  max-height: 150px; /* Ajustez la hauteur maximale selon vos besoins */
+  max-width: 100px; /* Modifiez la largeur comme vous le souhaitez */
+  max-height: 80px; /* Modifiez la hauteur comme vous le souhaitez */
 }
 
-
+.food-card img {
+  max-width: 150px; /* Modifiez la largeur comme vous le souhaitez */
+  height: 50px; /* Modifiez la hauteur comme vous le souhaitez */
+}
+.sophie-card img {
+  max-width: 300px; /* Modifiez la largeur comme vous le souhaitez */
+  max-height: 200px; /* Modifiez la hauteur comme vous le souhaitez */
+}
+.class-image { 
+  max-width: '80%';
+  height: 'auto';
+  max-height: '150px' 
+}
 /* Styles pour le mode mobile */
 @media (max-width: 768px) {
   .experience-list {

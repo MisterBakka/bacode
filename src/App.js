@@ -25,7 +25,6 @@ function App() {
         <>
           <Header />
           <About />
-          <ContactButton/>
           <Skills />
           <Experiences />
           <ContactButton/>

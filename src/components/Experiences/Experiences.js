@@ -28,6 +28,7 @@ function Experiences() {
       {logo: FigmaIcon}
       ],
       link: 'https://misterbakka.github.io/SC2A/',
+      cardClassName: 'sc2a-card',
     },
     {
       title: 'Kasa',
@@ -41,6 +42,7 @@ function Experiences() {
         {logo: JavascriptIcon}
       ],  
       link: 'https://github.com/MisterBakka/Kasa',
+      cardClassName: 'kasa-card',
     },
     {
       title: 'OhmyFood',
@@ -52,6 +54,7 @@ function Experiences() {
           { logo: SassIcon}
         ],
       link: 'https://misterbakka.github.io/ohmyfood/',
+      cardClassName: 'food-card',
     },
     {
       title: 'Portfolio Sophie Bluel',
@@ -64,6 +67,7 @@ function Experiences() {
           { logo: CssIcon}
         ], 
         link: 'https://github.com/MisterBakka/PortfolioArchitecte',
+        cardClassName: 'sophie-card',
     },
   ];
 
@@ -85,11 +89,11 @@ function Experiences() {
       <h2 className="projets">Mes Projets</h2>
       <div className="experience-list">
         {experiences.map((experience, index) => (
-          <div key={index} className="experience-card">
+          <div key={index} className={`experience-card ${experience.cardClassName}`}>
             <img
               src={experience.image}
               alt={experience.title}
-              style={{ maxWidth: '100%', height: 'auto', maxHeight: '150px' }}
+              className='class-image'
             />
             <h3>{experience.title}</h3>
             
