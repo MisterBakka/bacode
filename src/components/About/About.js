@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ContactButton from '../Contact/Contact';
 import './About.css';
-import Portrait from '../../assets/images/unnamed.webp';
+
 
 
 function About() {
@@ -35,11 +35,13 @@ function About() {
       <div id="about" className="about-container">
         <div className="about-content">
           <div className="portrait-container">
-            <img
-              src={Portrait}
-              alt="Mon Portrait"
-              className="portrait"
-            />
+          <a href='https://ibb.co/NFQBzqH'>
+          <img
+            src="https://i.ibb.co/L0b7fy2/unnamed.webp"
+            alt="Mon Portrait"
+            className="portrait"
+          />
+            </a>
           </div>
           <div className="text-container">
             <h2 className="centered-text">DAHMOUNI Badre</h2>
