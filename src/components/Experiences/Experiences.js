@@ -10,6 +10,7 @@ import CssIcon from '../../assets/icon/css3-alt.svg';
 import JavascriptIcon from '../../assets/icon/js.svg';
 import ReactIcon from '../../assets/icon/react.svg';
 
+
 import FigmaIcon from '../../assets/icon/figma.svg';
 import SassIcon from '../../assets/icon/sass.svg';
 

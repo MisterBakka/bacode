@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import ContactButton from '../Contact/Contact';
 import './About.css';
 import Portrait from '../../assets/images/unnamed.webp';
 
@@ -57,6 +58,7 @@ function About() {
           </div>
         </div>
       </div>
+      <ContactButton />
     </>
   );
 }

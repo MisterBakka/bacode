@@ -72,7 +72,7 @@ function Skills() {
     </div>
   
         <button  onClick={() => setIsEducationOpen(!isEducationOpen)}>
-          {isEducationOpen ? "Masquer les formations" : "Afficher les formations"}
+          {isEducationOpen ? "Masquer les formations" : "Mes Formations"}
         </button>
         <Collapse isOpened={isEducationOpen}>
           <div className="education-list">
