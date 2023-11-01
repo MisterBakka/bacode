@@ -1,25 +1,25 @@
-/* Footer container */
+
 .footer {
-    background-color: #2e2e2e; /* Couleur de fond du footer */
-    color: #ecf0f1; /* Couleur du texte */
-    padding: 40px 0; /* Espacement interne du footer */
+    background-color: #2e2e2e; 
+    color: #ecf0f1;
+    padding: 40px 0; 
     text-align: center;
   }
   
-  /* Footer content */
+
   .footer-content {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   
-  /* Footer logo */
+ 
   .footer-logo img {
-    width: 100px; /* Ajustez la taille de votre logo */
+    width: 100px; 
     height: auto;
   }
   
-  /* Footer links */
+
   .footer-links ul {
     list-style-type: none;
     padding: 0;
@@ -31,41 +31,39 @@
   
   .footer-links a {
     text-decoration: none;
-    color: #ecf0f1; /* Couleur des liens du footer */
+    color: #ecf0f1;
     font-weight: bold;
     transition: color 0.3s;
   }
   
   .footer-links a:hover {
-    color: #ff6b6b; /* Couleur au survol des liens */
+    color: #ff6b6b;
   }
-  
-  /* Footer social media links */
+
   .footer-social a {
     margin: 0 10px;
     text-decoration: none;
-    color: #ecf0f1; /* Couleur des icônes de réseaux sociaux */
+    color: #ecf0f1; 
     font-size: 24px;
     transition: color 0.3s;
   }
   
   .footer-social a:hover {
-    color: #ff6b6b; /* Couleur au survol des icônes de réseaux sociaux */
+    color: #ff6b6b; 
   }
   
-  /* Footer bottom */
+
   .footer-bottom {
     margin-top: 20px;
     font-size: 12px;
   }
-  
-  /* Footer bottom text */
+
   .footer-bottom p {
     margin: 0;
-    color: #ecf0f1; /* Couleur du texte du bas du footer */
+    color: #ecf0f1; 
   }
   
-  /* Footer copyright text */
+
   .footer-bottom p::before {
     content: '©';
     margin-right: 5px;

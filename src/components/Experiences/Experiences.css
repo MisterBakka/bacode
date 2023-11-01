@@ -32,7 +32,7 @@
   width: 60%; 
   height: auto; 
   max-height: 150px;
-  margin: 0 auto; /* Centrer l'image horizontalement */
+  margin: 0 auto; 
 }
 
 .experience-card h3 {
@@ -40,7 +40,7 @@
   font-weight: bold;
   color: #333;
   margin: 10px 0;
-  text-align: center; /* Centrer le texte */
+  text-align: center; 
 }
 
 .experience-card p {
@@ -52,22 +52,22 @@
 .experience-card a {
   text-decoration: none;
   font-size: 14px;
-  color: #007BFF; /* Couleur personnalisée pour les liens */
+  color: #007BFF; 
   margin-top: 10px;
-  text-align: center; /* Centrer les liens */
+  text-align: center; 
 }
 .sc2a-card img {
-  max-width: 90px; /* Modifiez la largeur comme vous le souhaitez */
-  max-height: 70px; /* Modifiez la hauteur comme vous le souhaitez */
+  max-width: 90px;
+  max-height: 70px; 
 }
 
 .food-card img {
-  max-width: 150px; /* Modifiez la largeur comme vous le souhaitez */
-  height: 50px; /* Modifiez la hauteur comme vous le souhaitez */
+  max-width: 150px; 
+  height: 50px; 
 }
 .sophie-card img {
-  max-width: 300px; /* Modifiez la largeur comme vous le souhaitez */
-  max-height: 200px; /* Modifiez la hauteur comme vous le souhaitez */
+  max-width: 300px; 
+  max-height: 200px; 
 }
 .class-image { 
   max-width: '80%';

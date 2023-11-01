@@ -30,7 +30,7 @@
     margin-bottom: 10px;
   }
  
-/* Réduire l'espace intérieur pour les écrans plus petits */
+
 @media screen and (max-width: 768px) {
   .skills-container {
     padding: 10px;
@@ -39,15 +39,15 @@
 
   .skills-list {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Deux compétences par ligne */
-    gap: 10px; /* Espacement entre les compétences */
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px; 
     justify-content: center;
   }
 
   .skill-item {
     text-align: center;
     margin: 10px;
-    width: 100%; /* Largeur maximale pour les compétences */
+    width: 100%; 
   }
 
   .skill-icon {

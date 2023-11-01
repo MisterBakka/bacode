@@ -1,4 +1,4 @@
-/* Styles pour le composant Loader */
+
 .loader-container {
   display: flex;
   justify-content: center;
@@ -8,7 +8,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  backdrop-filter: blur(5px); /* Ajoute un effet de flou au fond */
+  backdrop-filter: blur(5px);
   z-index: 1000;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
