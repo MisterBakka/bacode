@@ -9,8 +9,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    backdrop-filter: blur(20px); /* Flou du fond */
-    z-index: 999; /* Assurez-vous que le fond est au-dessus de tous les autres éléments */
+    backdrop-filter: blur(20px); 
+    z-index: 999; 
   }
   .project-modal {
     display: flex;

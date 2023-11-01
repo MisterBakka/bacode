@@ -2,7 +2,7 @@ import React from "react";
 import "./Contact.css";
 
 function ContactButton() {
-  const email = "misterbakka@gmail.com"; 
+  const email = "badredahmouni@gmail.com"; 
 
   const handleContactClick = () => {
     window.location.href = `mailto:${email}`;
