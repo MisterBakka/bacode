@@ -62,7 +62,7 @@ function About() {
           </div>
         </div>
       </div>
-      <ContactButton />
+
     </div>
   );
 }
